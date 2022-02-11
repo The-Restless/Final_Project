@@ -1,0 +1,206 @@
+
+/*Background*/
+.body{
+    background-image: url("https://thumbs.gfycat.com/HarmfulOptimalAlligatorsnappingturtle-size_restricted.gif");  
+
+    width: 100%;
+    min-height: 100%;
+  
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+/*Mainbox*/
+.mainbox{
+    align-self: center;
+    background-image: url("https://giffiles.alphacoders.com/165/16571.gif"); 
+    background-size: cover;
+    color: white;
+    width: 50vw;
+    height: auto;
+    min-height: 38vw;
+    border-radius: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vw;
+    z-index: 0;
+    overflow: auto;
+}
+
+.topbar_container{
+    margin: auto;
+    
+    align-self: center;
+}
+
+.l_topbox{
+    
+   
+    background-color: rgb(0, 144, 144, 0.5);
+    border-radius: 20px;
+    
+    float: left;
+    width: 10vw;
+    height: 6vw;
+    margin: 1vw;
+} 
+
+
+.l_topbox table{
+    font-size: 1.3vw;
+    margin:auto;
+}
+
+
+#reset {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2vw;
+    color: white;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    overflow: hidden;
+    outline: none;
+
+}
+
+#reset:hover{
+    color: cyan;
+}
+
+button{
+    width: 60px;
+    height: 40px;
+}
+
+.ft{
+
+    margin-top: 10vw;
+    width: 100%;
+    border-collapse: collapse;
+}
+ 
+.ftf{
+    width: 70%;
+    height: 0.1vw;
+    padding: 0;
+}
+
+.ftv{
+    padding: 0;
+    height: 0.1vw;
+}
+
+
+/*Middle box*/
+.middlebox{
+    box-shadow: -8px 6px 5px #004e4e;
+    margin: 0;
+    margin-top: -2vw;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 144, 144, 0.5); 
+    color: white;
+    width: 30vw;
+    height: 23vw;
+    border-radius: 20px; 
+}
+
+.mid_container{
+    width: 30vw;
+    height: 20vw;
+    
+}
+
+
+
+
+
+
+/*BottomBox*/
+.history_container{
+    margin: auto;
+    margin-top: 4vw;
+
+    overflow: hidden;
+    background-color: brown; 
+    color: white;
+    width: 17vw;
+    height: auto;
+    border-radius: 20px; 
+}
+
+.guesses{
+    overflow: auto;
+    border-radius: 20px;
+    width: 17vw;
+    height: auto;
+    max-height: 5.5vw;
+}
+
+.gt{
+    font-size: 1.1vw;
+    text-align: left;
+    margin-left: 0.2vw;
+    
+}
+
+#history{
+    border: 3px white;
+    margin-top: -1.5vw;
+}
+
+
+
+
+
+
+
+
+/*instruction module*/
+.instructions {
+ 
+    margin: 0 auto;
+    margin-top: 1px;
+    position: relative;
+    align-items: center; 
+    display: flex;
+
+
+}
+
+.instructions a:hover{
+    background-color: rgba(0, 56, 107, 0.8);
+}
+
+.instructions a{
+    margin: 0 auto;
+    margin-top: 1px;
+    margin-bottom: 3%;
+    position: relative;
+    
+    width: 30%;
+
+    background-color: rgba(102, 0, 81, 1);
+
+    border: 1px white solid;
+    border-radius: 25px;
+
+    text-decoration: none;
+    text-align: center;
+    
+    font-size: 1vw;
+
+    color: white;
+    padding: 3px;
+}
+

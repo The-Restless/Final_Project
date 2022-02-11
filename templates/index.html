@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+	<header>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"/>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+        <script src="{{url_for('static', filename='script2.js')}}"></script>
+
+	</header>
+
+
+ 	<body class="body">
+
+     
+  
+          <!--MainBox-->
+          <div class="mainbox">
+
+              <div class="topbar_container">
+                  <div class="box" style="margin-top: 5vw;">
+                        <form action="/index" method="post">
+		                    <label>Username</label> <input type="text" name="username" placeholder="Nickname"><br><br>
+		                     <label>Score</label> <input type="text" name="highscore" placeholder="Please dont lie"><br><br>
+		                    <button id="ans_btn"> Submit! </button>
+	                    </form>        
+
+	                    <table cellspacing="0" cellpadding="0" style="margin-left: 1vw;">
+                            
+                            <tr>
+                              <th class="ftf">
+                                <p>Score: </p>
+                              </th>
+
+                              <th class="ftv">
+                                <div id="score">0</div>
+                              </th>
+                            </tr>
+                           </table>
+                  </div>              
+              </div>
+
+
+  </body>
+
+
+</html>
